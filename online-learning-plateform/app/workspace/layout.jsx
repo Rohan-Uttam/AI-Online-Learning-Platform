@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Workspaceprovider from "./provider";
 function WorkspaceLayout({ children}) {
   return (
 
-       <WorkspacePovider>{children}</WorkspacePovider>
+       <Workspaceprovider>{children}</Workspaceprovider>
   )
 }
 
